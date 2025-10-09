@@ -4,22 +4,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const capabilities = [
   {
     icon: Grid3x3,
-    title: "ناحیه بندی",
-    description: "تشخیص و جداسازی اتوماتیک اشیاء، افراد و مناطق مختلف در تصویر با دقت بالا. این قابلیت امکان تحلیل دقیق هر بخش از صحنه را فراهم می‌کند.",
+    title: "Segmentation",
+    description: "Automatic detection and separation of objects, people, and different areas in images with high precision. This capability enables detailed analysis of every part of the scene.",
     videoUrl: "https://cc-ai.ir/videos/segmentation.mp4",
     gradient: "from-primary to-secondary",
   },
   {
     icon: Users,
-    title: "تشخیص حالات بدن",
-    description: "شناسایی و تحلیل حالات و ژست‌های بدن افراد به صورت لحظه‌ای. مفید برای نظارت بر ایمنی، تحلیل رفتار و کنترل دسترسی.",
+    title: "Pose Detection",
+    description: "Real-time identification and analysis of body postures and gestures. Useful for safety monitoring, behavior analysis, and access control.",
     videoUrl: "https://cc-ai.ir/videos/pose.mp4",
     gradient: "from-accent to-primary",
   },
   {
     icon: Brain,
-    title: "شناسایی و طبقه بندی چهره",
-    description: "تشخیص چهره با دقت بالا و طبقه‌بندی افراد برای کنترل دسترسی، حضور و غیاب و امنیت پیشرفته در زمان واقعی.",
+    title: "Face Recognition & Classification",
+    description: "High-accuracy face detection and person classification for access control, attendance tracking, and advanced security in real-time.",
     videoUrl: "https://cc-ai.ir/videos/face-detection.mp4",
     gradient: "from-secondary to-accent",
   },
@@ -34,10 +34,10 @@ const AICapabilities = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            قابلیت‌های <span className="bg-gradient-primary bg-clip-text text-transparent">هوش مصنوعی</span>
+            AI <span className="bg-gradient-primary bg-clip-text text-transparent">Capabilities</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            فناوری‌های پیشرفته بینایی ماشین برای تحلیل هوشمند تصاویر دوربین‌های مداربسته شما
+            Advanced computer vision technologies for intelligent analysis of your CCTV camera footage
           </p>
         </div>
 
@@ -48,7 +48,7 @@ const AICapabilities = () => {
               className="group relative border-border hover:border-primary/50 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.2)] animate-fade-in overflow-hidden"
               style={{ animationDelay: `${index * 150}ms` }}
             >
-              <CardHeader className="space-y-4 relative z-10 text-right">
+              <CardHeader className="space-y-4 relative z-10">
                 {/* Icon */}
                 <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-secondary p-[2px] mr-auto">
                   <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
