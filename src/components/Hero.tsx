@@ -66,9 +66,12 @@ const Hero = () => {
           {/* Right side - Dashboard image */}
           <div className="relative animate-slide-in-right">
             <div className="relative rounded-2xl overflow-hidden border border-primary/20 shadow-[0_0_50px_rgba(59,130,246,0.3)] animate-glow">
-              <img
-                src={heroDashboard}
-                alt="AI CCTV Dashboard"
+              <video
+                src="https://cc-ai.ir/videos/banner.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-auto"
               />
               {/* Overlay gradient */}
