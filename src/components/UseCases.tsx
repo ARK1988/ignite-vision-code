@@ -83,9 +83,6 @@ const UseCases = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/95 to-card/80" />
               </div>
-
-              {/* Gradient accent line */}
-              <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-${useCase.color} to-transparent opacity-0 group-hover:opacity-100 transition-opacity`} />
               
               <CardHeader className="space-y-4 relative z-10">
                 {/* Icon */}
