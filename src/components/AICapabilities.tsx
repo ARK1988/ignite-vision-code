@@ -18,7 +18,7 @@ const capabilities = [
   },
   {
     icon: Brain,
-    title: "Face Recognition & Classification",
+    title: "Detection & Classification",
     description: "High-accuracy face detection and person classification for access control, attendance tracking, and advanced security in real-time.",
     videoUrl: "https://cc-ai.ir/videos/face-detection.mp4",
     gradient: "from-secondary to-accent",
