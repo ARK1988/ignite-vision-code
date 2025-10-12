@@ -23,7 +23,7 @@ const Navigation = () => {
                 <circle cx="12" cy="12" r="3" />
               </svg> */}
                 <img
-    src="https://github.com/ARK1988/ccai-homepage/blob/main/videos/edgetec-logo-revised.png"
+    src="https://cc-ai.ir/videos/edgetec-logo-revised.png"
     alt="Site Logo"
     className="w-8 h-8 object-contain"
   />
