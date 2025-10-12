@@ -1,27 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/edgetec-logo.jpg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
-      {/* Pure logo outside padding */}
-      <div className="absolute left-6 top-2 z-50">
-        <img
-          src="https://cc-ai.ir/images/edgetec-logo.svg"
-          alt="Site Logo"
-          style={{ width: 40, height: 40 }}
-        />
-      </div>
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
-          {/* Remove old logo block, keep title only */}
-          <div className="flex items-center gap-2">
-            <span className="text-xl font-bold">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">CCAI</span>
-            </span>
+          <div className="flex items-center">
+            <img
+              src={logo}
+              alt="EdgeTec AI System Co. Logo"
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
