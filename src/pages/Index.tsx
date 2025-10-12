@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import AICapabilities from "@/components/AICapabilities";
+import OtherFeatures from "@/components/OtherFeatures";
 import UseCases from "@/components/UseCases";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -16,6 +17,7 @@ const Index = () => {
           <Features />
         </div>
         <AICapabilities />
+        <OtherFeatures />
         <div id="applications">
           <UseCases />
         </div>

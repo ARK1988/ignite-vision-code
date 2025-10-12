@@ -17,61 +17,78 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <Card className="border-border bg-card/50 backdrop-blur-sm p-8 md:p-12">
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Address */}
-              <div className="space-y-4 animate-fade-in">
-                <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
-                  <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-primary" />
+        <div className="max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* Contact Info Card */}
+            <Card className="border-border bg-card/50 backdrop-blur-sm p-8 md:p-12">
+              <div className="grid gap-8">
+                {/* Address */}
+                <div className="space-y-4 animate-fade-in">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
+                    <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
+                      <MapPin className="w-6 h-6 text-primary" />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-2">Address</h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed text-justify">
+                      Unit 112, 3rd floor, Rasis Business Center. Al Barsha 1, Dubai, UAE
+                    </p>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Address</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed text-justify">
-                    Unit 112, 3rd floor, Rasis Business Center. Al Barsha 1, Dubai, UAE
-                  </p>
-                </div>
-              </div>
 
-              {/* Phone */}
-              <div className="space-y-4 animate-fade-in" style={{ animationDelay: "100ms" }}>
-                <div className="w-12 h-12 rounded-xl bg-gradient-accent p-[2px]">
-                  <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-accent" />
+                {/* Phone */}
+                <div className="space-y-4 animate-fade-in" style={{ animationDelay: "100ms" }}>
+                  <div className="w-12 h-12 rounded-xl bg-gradient-accent p-[2px]">
+                    <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
+                      <Phone className="w-6 h-6 text-accent" />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-2">Phone</h3>
+                    <a 
+                      href="tel:+971507180093"
+                      className="text-muted-foreground text-sm hover:text-primary transition-colors"
+                    >
+                      +971-50-7180093
+                    </a>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Phone</h3>
-                  <a 
-                    href="tel:+971507180093"
-                    className="text-muted-foreground text-sm hover:text-primary transition-colors"
-                  >
-                    +971-50-7180093
-                  </a>
-                </div>
-              </div>
 
-              {/* Email */}
-              <div className="space-y-4 animate-fade-in" style={{ animationDelay: "200ms" }}>
-                <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
-                  <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-primary" />
+                {/* Email */}
+                <div className="space-y-4 animate-fade-in" style={{ animationDelay: "200ms" }}>
+                  <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
+                    <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
+                      <Mail className="w-6 h-6 text-primary" />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-2">Email</h3>
+                    <a 
+                      href="mailto:reza.karbas@4cell.net"
+                      className="text-muted-foreground text-sm hover:text-primary transition-colors break-all"
+                    >
+                      reza.karbas@4cell.net
+                    </a>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Email</h3>
-                  <a 
-                    href="mailto:reza.karbas@4cell.net"
-                    className="text-muted-foreground text-sm hover:text-primary transition-colors break-all"
-                  >
-                    reza.karbas@4cell.net
-                  </a>
-                </div>
               </div>
-            </div>
-          </Card>
+            </Card>
+
+            {/* Google Map */}
+            <Card className="border-border bg-card/50 backdrop-blur-sm overflow-hidden animate-fade-in" style={{ animationDelay: "300ms" }}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.0985956347434!2d55.196168!3d25.115556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b7c1c8b9b9f%3A0x1c8b9b9f1c8b9b9f!2sRasis%20Business%20Center!5e0!3m2!1sen!2sae!4v1234567890"
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: '400px' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Office Location"
+              />
+            </Card>
+          </div>
         </div>
       </div>
     </section>
