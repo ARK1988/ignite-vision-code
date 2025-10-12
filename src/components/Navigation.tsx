@@ -12,7 +12,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center">
-              <svg
+              {/* <svg
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -21,7 +21,12 @@ const Navigation = () => {
               >
                 <path d="M15 3h4a2 2 0 0 1 2 2v4m0 6v4a2 2 0 0 1-2 2h-4M9 21H5a2 2 0 0 1-2-2v-4m0-6V5a2 2 0 0 1 2-2h4" />
                 <circle cx="12" cy="12" r="3" />
-              </svg>
+              </svg> */}
+                <img
+    src="https://github.com/ARK1988/ccai-homepage/blob/main/videos/edgetec-logo-revised.png"
+    alt="Site Logo"
+    className="w-8 h-8 object-contain"
+  />
             </div>
             <span className="text-xl font-bold">
               <span className="bg-gradient-primary bg-clip-text text-transparent">CCAI</span>
