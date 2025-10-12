@@ -24,7 +24,7 @@ const Footer = () => {
                 CCAI
               </span>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground text-justify">
               Close Circuit Artificial Intelligence - Empowering security through AI.
             </p>
           </div>

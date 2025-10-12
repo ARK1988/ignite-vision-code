@@ -62,7 +62,7 @@ const UseCases = () => {
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             Applications Across <span className="bg-gradient-accent bg-clip-text text-transparent">Industries</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-justify">
             CCTV cameras are deployed everywhere across different industries. An unparalleled data source that can solve numerous and diverse challenges.
           </p>
         </div>
@@ -97,7 +97,7 @@ const UseCases = () => {
                   <CardTitle className="text-xl mb-2 group-hover:text-primary transition-colors">
                     {useCase.title}
                   </CardTitle>
-                  <CardDescription className="text-muted-foreground leading-relaxed">
+                  <CardDescription className="text-muted-foreground leading-relaxed text-justify">
                     {useCase.description}
                   </CardDescription>
                 </div>

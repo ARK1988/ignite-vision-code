@@ -50,7 +50,7 @@ const Features = () => {
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             Why Choose <span className="bg-gradient-primary bg-clip-text text-transparent">CCAI</span>?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-justify">
             Accurate, Fast, and Cost-Effective. Our experienced team leverages cutting-edge technology to deliver the perfect balance.
           </p>
         </div>
@@ -73,7 +73,7 @@ const Features = () => {
               <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
                 {feature.title}
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-justify">
                 {feature.description}
               </p>
 

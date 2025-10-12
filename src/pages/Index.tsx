@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import AICapabilities from "@/components/AICapabilities";
 import UseCases from "@/components/UseCases";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -18,6 +19,7 @@ const Index = () => {
         <div id="applications">
           <UseCases />
         </div>
+        <Contact />
       </main>
       <Footer />
     </div>

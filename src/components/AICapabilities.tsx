@@ -36,7 +36,7 @@ const AICapabilities = () => {
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             AI <span className="bg-gradient-primary bg-clip-text text-transparent">Capabilities</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-justify">
             Advanced computer vision technologies for intelligent analysis of your CCTV camera footage
           </p>
         </div>
@@ -61,7 +61,7 @@ const AICapabilities = () => {
                   <CardTitle className="text-2xl mb-3 group-hover:text-primary transition-colors">
                     {capability.title}
                   </CardTitle>
-                  <CardDescription className="text-muted-foreground leading-relaxed text-base">
+                  <CardDescription className="text-muted-foreground leading-relaxed text-base text-justify">
                     {capability.description}
                   </CardDescription>
                 </div>

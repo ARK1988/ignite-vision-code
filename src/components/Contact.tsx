@@ -1,0 +1,81 @@
+import { MapPin, Phone, Mail } from "lucide-react";
+import { Card } from "@/components/ui/card";
+
+const Contact = () => {
+  return (
+    <section id="contact" className="py-24 relative overflow-hidden">
+      {/* Background effects */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(120,119,198,0.1),transparent_50%)]" />
+      
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+            Contact <span className="bg-gradient-primary bg-clip-text text-transparent">Us</span>
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-justify">
+            Get in touch with our team to learn more about how CCAI can transform your security infrastructure with AI-powered solutions.
+          </p>
+        </div>
+
+        <div className="max-w-4xl mx-auto">
+          <Card className="border-border bg-card/50 backdrop-blur-sm p-8 md:p-12">
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Address */}
+              <div className="space-y-4 animate-fade-in">
+                <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
+                  <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-primary" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Address</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed text-justify">
+                    Unit 112, 3rd floor, Rasis Business Center. Al Barsha 1, Dubai, UAE
+                  </p>
+                </div>
+              </div>
+
+              {/* Phone */}
+              <div className="space-y-4 animate-fade-in" style={{ animationDelay: "100ms" }}>
+                <div className="w-12 h-12 rounded-xl bg-gradient-accent p-[2px]">
+                  <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-accent" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Phone</h3>
+                  <a 
+                    href="tel:+971507180093"
+                    className="text-muted-foreground text-sm hover:text-primary transition-colors"
+                  >
+                    +971-50-7180093
+                  </a>
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="space-y-4 animate-fade-in" style={{ animationDelay: "200ms" }}>
+                <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
+                  <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-primary" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Email</h3>
+                  <a 
+                    href="mailto:reza.karbas@4cell.net"
+                    className="text-muted-foreground text-sm hover:text-primary transition-colors break-all"
+                  >
+                    reza.karbas@4cell.net
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Card>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

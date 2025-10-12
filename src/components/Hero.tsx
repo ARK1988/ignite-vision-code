@@ -30,7 +30,7 @@ const Hero = () => {
                 <br />
                 <span className="text-foreground">Artificial Intelligence</span>
               </h1>
-              <p className="text-xl text-muted-foreground max-w-lg">
+              <p className="text-xl text-muted-foreground max-w-lg text-justify">
                 Gain awareness of critical events in real-time and historically through AI-powered CCTV image processing. Local, cost-effective, and powered by cutting-edge technology.
               </p>
             </div>
