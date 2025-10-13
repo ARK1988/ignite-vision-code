@@ -19,8 +19,20 @@ const Contact = () => {
 
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-8">
-            {/* Contact Info Card */}
-            <Card className="border-border bg-card/50 backdrop-blur-sm p-8 md:p-12">
+            {/* Left Column - CTA Text + Contact Info Card */}
+            <div className="space-y-8">
+              {/* CTA Text */}
+              <div className="animate-fade-in">
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+                  Ready to Transform Your <span className="bg-gradient-primary bg-clip-text text-transparent">Operations?</span>
+                </h3>
+                <p className="text-muted-foreground leading-relaxed text-justify">
+                  Contact us today to discuss how CCAI can deliver immediate ROI through enhanced compliance, reduced waste, and optimised throughput.
+                </p>
+              </div>
+
+              {/* Contact Info Card */}
+              <Card className="border-border bg-card/50 backdrop-blur-sm p-8 md:p-12">
               <div className="grid gap-8">
                 {/* Address */}
                 <div className="space-y-4 animate-fade-in">
@@ -74,6 +86,7 @@ const Contact = () => {
                 </div>
               </div>
             </Card>
+            </div>
 
             {/* Google Map */}
             <Card className="border-border bg-card/50 backdrop-blur-sm overflow-hidden animate-fade-in" style={{ animationDelay: "300ms" }}>

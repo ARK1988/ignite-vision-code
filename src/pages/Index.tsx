@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import AICapabilities from "@/components/AICapabilities";
 import OtherFeatures from "@/components/OtherFeatures";
 import UseCases from "@/components/UseCases";
+import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -21,6 +22,7 @@ const Index = () => {
         <div id="applications">
           <UseCases />
         </div>
+        <Team />
         <Contact />
       </main>
       <Footer />
