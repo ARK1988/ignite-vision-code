@@ -1,5 +1,6 @@
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import Map from "@/components/Map";
 
 const Contact = () => {
   return (
@@ -88,18 +89,9 @@ const Contact = () => {
             </Card>
             </div>
 
-            {/* Google Map */}
+            {/* Mapbox Map */}
             <Card className="border-border bg-card/50 backdrop-blur-sm overflow-hidden animate-fade-in" style={{ animationDelay: "300ms" }}>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.0985956347434!2d55.196168!3d25.115556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b7c1c8b9b9f%3A0x1c8b9b9f1c8b9b9f!2sRasis%20Business%20Center!5e0!3m2!1sen!2sae!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0, minHeight: '400px' }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Office Location"
-              />
+              <Map />
             </Card>
           </div>
         </div>
