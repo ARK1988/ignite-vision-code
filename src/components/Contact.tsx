@@ -1,6 +1,8 @@
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import Map from "@/components/Map";
+
+const GOOGLE_MAPS_EMBED_URL =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.070282385812!2d55.212222!3d25.116666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b7c7c7c7c7c%3A0x7c7c7c7c7c7c7c7c!2sRasis%20Business%20Center%2C%20Al%20Barsha%201%2C%20Dubai%2C%20UAE!5e0!3m2!1sen!2sae!4v1690000000000!5m2!1sen!2sae";
 
 const Contact = () => {
   return (
@@ -86,9 +88,18 @@ const Contact = () => {
               </div>
             </Card>
 
-            {/* Mapbox Map */}
-            <Card className="border-border bg-card/50 backdrop-blur-sm overflow-hidden animate-fade-in" style={{ animationDelay: "200ms" }}>
-              <Map />
+            {/* Google Map Embed */}
+            <Card className="border-border bg-card/50 backdrop-blur-sm overflow-hidden animate-fade-in flex items-center justify-center" style={{ animationDelay: "200ms" }}>
+              <iframe
+                src={GOOGLE_MAPS_EMBED_URL}
+                width="100%"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Map Location"
+              />
             </Card>
           </div>
         </div>
