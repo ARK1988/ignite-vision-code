@@ -19,24 +19,22 @@ const Contact = () => {
         </div>
 
         <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-8">
-            {/* Left Column - CTA Text + Contact Info Card */}
-            <div className="space-y-8">
-              {/* CTA Text */}
-              <div className="animate-fade-in">
-                <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-                  Ready to Transform Your <span className="bg-gradient-primary bg-clip-text text-transparent">Operations?</span>
-                </h3>
-                <p className="text-muted-foreground leading-relaxed text-justify">
-                  Contact us today to discuss how CCAI can deliver immediate ROI through enhanced compliance, reduced waste, and optimised throughput.
-                </p>
-              </div>
+          {/* CTA Text */}
+          <div className="mb-12 animate-fade-in">
+            <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+              Ready to Transform Your <span className="bg-gradient-primary bg-clip-text text-transparent">Operations?</span>
+            </h3>
+            <p className="text-muted-foreground leading-relaxed text-justify max-w-3xl">
+              Contact us today to discuss how CCAI can deliver immediate ROI through enhanced compliance, reduced waste, and optimised throughput.
+            </p>
+          </div>
 
-              {/* Contact Info Card */}
-              <Card className="border-border bg-card/50 backdrop-blur-sm p-8 md:p-12">
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* Contact Info Card */}
+            <Card className="border-border bg-card/50 backdrop-blur-sm p-8 md:p-12 animate-fade-in" style={{ animationDelay: "100ms" }}>
               <div className="grid gap-8">
                 {/* Address */}
-                <div className="space-y-4 animate-fade-in">
+                <div className="space-y-4">
                   <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
                     <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
                       <MapPin className="w-6 h-6 text-primary" />
@@ -51,7 +49,7 @@ const Contact = () => {
                 </div>
 
                 {/* Phone */}
-                <div className="space-y-4 animate-fade-in" style={{ animationDelay: "100ms" }}>
+                <div className="space-y-4">
                   <div className="w-12 h-12 rounded-xl bg-gradient-accent p-[2px]">
                     <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
                       <Phone className="w-6 h-6 text-accent" />
@@ -69,7 +67,7 @@ const Contact = () => {
                 </div>
 
                 {/* Email */}
-                <div className="space-y-4 animate-fade-in" style={{ animationDelay: "200ms" }}>
+                <div className="space-y-4">
                   <div className="w-12 h-12 rounded-xl bg-gradient-primary p-[2px]">
                     <div className="w-full h-full bg-card rounded-xl flex items-center justify-center">
                       <Mail className="w-6 h-6 text-primary" />
@@ -87,10 +85,9 @@ const Contact = () => {
                 </div>
               </div>
             </Card>
-            </div>
 
             {/* Mapbox Map */}
-            <Card className="border-border bg-card/50 backdrop-blur-sm overflow-hidden animate-fade-in" style={{ animationDelay: "300ms" }}>
+            <Card className="border-border bg-card/50 backdrop-blur-sm overflow-hidden animate-fade-in" style={{ animationDelay: "200ms" }}>
               <Map />
             </Card>
           </div>
