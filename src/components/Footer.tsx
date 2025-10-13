@@ -1,3 +1,5 @@
+import logo from "@/assets/edgetec-logo.png";
+
 const Footer = () => {
   return (
     <footer className="relative py-12 border-t border-border/50">
@@ -7,23 +9,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  className="w-6 h-6 text-background"
-                >
-                  <path d="M15 3h4a2 2 0 0 1 2 2v4m0 6v4a2 2 0 0 1-2 2h-4M9 21H5a2 2 0 0 1-2-2v-4m0-6V5a2 2 0 0 1 2-2h4" />
-                  <circle cx="12" cy="12" r="3" />
-                </svg>
-              </div>
-              <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                CCAI
-              </span>
-            </div>
+            <img
+              src={logo}
+              alt="EdgeTec AI System Co. Logo"
+              className="h-10 w-auto"
+            />
             <p className="text-sm text-muted-foreground text-justify">
               Close Circuit Artificial Intelligence - Empowering security through AI.
             </p>
@@ -114,7 +104,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2025 CCAI. All rights reserved.
+            © 2025 EdgeTec. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">

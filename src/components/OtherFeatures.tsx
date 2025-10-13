@@ -28,8 +28,8 @@ const otherFeatures = [
   },
   {
     icon: FileText,
-    title: "Comprehensive Reporting",
-    description: "Users can get comprehensive and user-friendly reports of events detected in real-time or historically, on their phone or computer, from inside or outside their facility.",
+    title: "Conversational Reporting",
+    description: "Users can get comprehensive and conversational user-friendly reports of events detected in real-time or historically, on their phone or computer, from inside or outside their facility with LLM-powered UI.",
     gradient: "from-accent to-secondary",
   },
   {
