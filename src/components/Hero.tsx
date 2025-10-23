@@ -44,6 +44,19 @@ const Hero = () => {
               <Button variant="hero-outline" size="lg">
                 View Demo
               </Button>
+              <Button 
+                variant="hero-outline" 
+                size="lg"
+                asChild
+              >
+                <a 
+                  href="YOUR_GOOGLE_FORM_LINK_HERE" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Request Service
+                </a>
+              </Button>
             </div>
 
             {/* Stats */}
