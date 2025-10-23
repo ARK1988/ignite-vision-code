@@ -50,7 +50,7 @@ const Hero = () => {
                 asChild
               >
                 <a 
-                  href="YOUR_GOOGLE_FORM_LINK_HERE" 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfVlNERE_tzjO910OuoeQkRkX8ijvVLVT6PtN8p3irCN7AMKQ/viewform?usp=dialog" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
