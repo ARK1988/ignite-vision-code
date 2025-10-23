@@ -37,12 +37,24 @@ const Hero = () => {
 
             {/* CTA buttons */}
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="lg" className="group">
-                Get Started
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              <Button variant="hero" size="lg" className="group" asChild>
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfVlNERE_tzjO910OuoeQkRkX8ijvVLVT6PtN8p3irCN7AMKQ/viewform?usp=dialog" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Get Started
+                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                </a>
               </Button>
-              <Button variant="hero-outline" size="lg">
-                View Demo
+              <Button variant="hero-outline" size="lg" asChild>
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfVlNERE_tzjO910OuoeQkRkX8ijvVLVT6PtN8p3irCN7AMKQ/viewform?usp=dialog" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  View Demo
+                </a>
               </Button>
               <Button 
                 variant="hero-outline" 
