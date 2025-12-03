@@ -37,7 +37,7 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="hero" size="sm" asChild>
-              <a href="#features">Request Demo</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVlNERE_tzjO910OuoeQkRkX8ijvVLVT6PtN8p3irCN7AMKQ/viewform?usp=sharing&ouid=101004293641157131101" target="_blank" rel="noopener noreferrer">Request Demo</a>
             </Button>
           </div>
 
@@ -82,7 +82,7 @@ const Navigation = () => {
               Contact
             </a>
             <Button variant="hero" size="sm" className="w-full" asChild>
-              <a href="#features" onClick={() => setIsOpen(false)}>Request Demo</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVlNERE_tzjO910OuoeQkRkX8ijvVLVT6PtN8p3irCN7AMKQ/viewform?usp=sharing&ouid=101004293641157131101" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Request Demo</a>
             </Button>
           </div>
         )}
