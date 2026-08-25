@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/edgetecva-logo.png.asset.json";
+import logoAsset from "@/assets/edgetecva-logo.png";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <img
-              src={logoAsset.url}
+              src={logoAsset}
               alt="EdgeTech Video Analytics"
               className="h-10 w-auto"
             />

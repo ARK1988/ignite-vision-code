@@ -1,4 +1,4 @@
-import teamImageAsset from "@/assets/edgetec-team.jpg.asset.json";
+import teamImageAsset from "@/assets/edgetec-team.jpg";
 
 const Team = () => {
   return (
@@ -18,7 +18,7 @@ const Team = () => {
             {/* Image */}
             <div className="animate-fade-in">
               <img
-                src={teamImageAsset.url}
+                src={teamImageAsset}
                 alt="EdgeTech VA team of video analytics specialists"
                 className="rounded-2xl shadow-elegant w-full h-auto"
               />
