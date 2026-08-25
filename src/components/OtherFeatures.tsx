@@ -52,7 +52,7 @@ const OtherFeatures = () => {
             Additional <span className="bg-gradient-accent bg-clip-text text-transparent">Features</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-justify">
-            Beyond core AI capabilities, CCAI system offers enterprise-grade features for scalability, integration, and continuous support to ensure long-term success.
+            Beyond core AI capabilities, EdgeTech VA offers enterprise-grade features for scalability, integration, and continuous support to ensure long-term success.
           </p>
         </div>
 

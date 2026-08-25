@@ -16,7 +16,7 @@ const Contact = () => {
             Contact <span className="bg-gradient-primary bg-clip-text text-transparent">Us</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-justify">
-            Get in touch with our team to learn more about how CCAI can transform your security infrastructure with AI-powered solutions.
+            Get in touch with our team to learn more about how EdgeTech VA can transform your security infrastructure with AI-powered solutions.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ const Contact = () => {
               Ready to Transform Your <span className="bg-gradient-primary bg-clip-text text-transparent">Operations?</span>
             </h3>
             <p className="text-muted-foreground leading-relaxed text-justify max-w-3xl">
-              Contact us today to discuss how CCAI can deliver immediate ROI through enhanced compliance, reduced waste, and optimised throughput.
+              Contact us today to discuss how EdgeTech VA can deliver immediate ROI through enhanced compliance, reduced waste, and optimised throughput.
             </p>
           </div>
 
@@ -78,10 +78,10 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Email</h3>
                     <a 
-                      href="mailto:reza.karbas@4cell.net"
+                      href="mailto:reza.karbas@edgetec.ai"
                       className="text-muted-foreground text-sm hover:text-primary transition-colors break-all"
                     >
-                      reza.karbas@4cell.net
+                      reza.karbas@edgetec.ai
                     </a>
                   </div>
                 </div>

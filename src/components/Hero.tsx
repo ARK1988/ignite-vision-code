@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Eye, Zap } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.jpg";
 
 const Hero = () => {
   return (
@@ -26,9 +25,9 @@ const Hero = () => {
             {/* Main heading */}
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-                <span className="bg-gradient-primary bg-clip-text text-transparent">Close Circuit</span>
+                <span className="bg-gradient-primary bg-clip-text text-transparent">EdgeTech</span>
                 <br />
-                <span className="text-foreground">Artificial Intelligence</span>
+                <span className="text-foreground">Video Analyzer (VA)</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg text-justify">
                 Gain awareness of critical events in real-time and historically through AI-powered CCTV image processing. Local, cost-effective, and powered by cutting-edge technology.
@@ -85,7 +84,7 @@ const Hero = () => {
             <div className="absolute -top-4 -right-4 bg-card border border-primary/20 rounded-xl p-4 backdrop-blur-md shadow-card animate-float">
               <Eye className="w-6 h-6 text-primary mb-2" />
               <div className="text-sm font-medium">Live Detection</div>
-              <div className="text-xs text-muted-foreground">15 cameras active</div>
+              <div className="text-xs text-muted-foreground">No camera limit</div>
             </div>
 
             <div className="absolute -bottom-4 -left-4 bg-card border border-accent/20 rounded-xl p-4 backdrop-blur-md shadow-card animate-float" style={{ animationDelay: "1s" }}>

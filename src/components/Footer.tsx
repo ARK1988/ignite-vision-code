@@ -1,4 +1,4 @@
-import logo from "@/assets/edgetec-logo.png";
+import logoAsset from "@/assets/edgetecva-logo.png.asset.json";
 
 const Footer = () => {
   return (
@@ -10,12 +10,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <img
-              src={logo}
-              alt="EdgeTec AI System Co. Logo"
+              src={logoAsset.url}
+              alt="EdgeTech Video Analytics"
               className="h-10 w-auto"
             />
             <p className="text-sm text-muted-foreground text-justify">
-              Close Circuit Artificial Intelligence - Empowering security through AI.
+              EdgeTech VA — empowering security through intelligent video analytics.
             </p>
           </div>
 
