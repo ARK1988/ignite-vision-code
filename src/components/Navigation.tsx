@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import logoAsset from "@/assets/edgetecva-logo.png.asset.json";
+import logoAsset from "@/assets/edgetecva-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <img
-              src={logoAsset.url}
+              src={logoAsset}
               alt="EdgeTech Video Analytics"
               className="h-12 w-auto"
             />
