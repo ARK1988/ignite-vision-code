@@ -84,7 +84,7 @@ const Hero = () => {
             <div className="absolute -top-4 -right-4 bg-card border border-primary/20 rounded-xl p-4 backdrop-blur-md shadow-card animate-float">
               <Eye className="w-6 h-6 text-primary mb-2" />
               <div className="text-sm font-medium">Live Detection</div>
-              <div className="text-xs text-muted-foreground">No camera limit</div>
+              <div className="text-xs text-muted-foreground">No limit on camera numbers</div>
             </div>
 
             <div className="absolute -bottom-4 -left-4 bg-card border border-accent/20 rounded-xl p-4 backdrop-blur-md shadow-card animate-float" style={{ animationDelay: "1s" }}>
