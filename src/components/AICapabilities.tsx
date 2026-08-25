@@ -19,7 +19,7 @@ const capabilities = [
   {
     icon: Brain,
     title: "Detection & Classification",
-    description: "High-accuracy face detection and person classification for access control, attendance tracking, and advanced security in real-time.",
+    description: "This involves detecting and classifying various entities such as faces (for identity or emotion), license plates (to determine the number), and other objects within the image.",
     videoUrl: "https://cc-ai.ir/videos/face-detection.mp4",
     gradient: "from-secondary to-accent",
   },

@@ -48,7 +48,7 @@ const Features = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Why Choose <span className="bg-gradient-primary bg-clip-text text-transparent">CCAI</span>?
+            Why Choose <span className="bg-gradient-primary bg-clip-text text-transparent">EdgeTech VA</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-justify">
             Accurate, Fast, and Cost-Effective. Our experienced team leverages cutting-edge technology to deliver the perfect balance.

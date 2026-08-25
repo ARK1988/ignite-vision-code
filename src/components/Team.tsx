@@ -1,4 +1,4 @@
-import teamImage from "@/assets/ccai-team.png";
+import teamImageAsset from "@/assets/edgetec-team.jpg";
 
 const Team = () => {
   return (
@@ -9,7 +9,7 @@ const Team = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            CCAI <span className="bg-gradient-primary bg-clip-text text-transparent">Team</span>
+            EdgeTech VA <span className="bg-gradient-primary bg-clip-text text-transparent">Team</span>
           </h2>
         </div>
 
@@ -18,8 +18,8 @@ const Team = () => {
             {/* Image */}
             <div className="animate-fade-in">
               <img
-                src={teamImage}
-                alt="CCAI Team - Multidisciplinary experts in MLOps, Backend Engineering, UI/UX Design, and Data Science"
+                src={teamImageAsset}
+                alt="EdgeTech VA team of video analytics specialists"
                 className="rounded-2xl shadow-elegant w-full h-auto"
               />
             </div>
